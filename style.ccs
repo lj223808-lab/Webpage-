@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+/* NAVIGATION (POSITION PROPERTY USED) */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* TEAM SECTION */
+.team {
+  width: 80%;
+  margin: auto;
+}
+
+/* EACH MEMBER (FLOAT USED HERE) */
+.member {
+  background: white;
+  margin: 20px 0;
+  padding: 15px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.member img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.bio {
+  overflow: hidden;
+}
